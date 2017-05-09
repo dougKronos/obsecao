@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+@media (min-width: 320px) {
+	#bar nav > a:first-child {
+		display: inline-block;
+		width: 105px;
+		height: 52px;
+		background: url(images/logo.png) left center no-repeat;
+		background-size: 105px 12px;
+	}
+	#bar nav > a.btn {
+		font-size: 11px;
+		line-height: 1.4em;
+		width: 70px;
+		margin: 10px 5px;
+	}
+}
+@media (min-width: 767px) {
+	#bar nav > a:first-child {
+		width: 210px;
+		background-size: 210px 24px;
+	}
+	#bar nav > a.btn {
+		font-size: 1em;
+		width: 120px;
+		margin: 10px;
+	}
+}
