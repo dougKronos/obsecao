@@ -24,6 +24,73 @@ class AnuncioEntity {
 	function __construct(){
 		
 	}
+
+	//getters
+	function getNAnuncioID() {
+    	return $this->nAnuncioID;
+	}
+
+	function getCao() {
+    	return $this->cao;
+	}
+
+	function getProtetor() {
+    	return $this->protetor;
+	}
+
+	function getDataAnuncio() {
+    	return $this->dataAnuncio;
+	}
+
+	function getBStatusAprovado() {
+    	return $this->bStatusAprovado;
+	}
+
+	function getStrTitulo() {
+    	return $this->strTitulo;
+	}
+
+	function getStrDescricao() {
+    	return $this->strDescricao;
+	}
+
+	function getAdministrador() {
+    	return $this->administrador;
+	}
+
+	//setters
+	function setNAnuncioID($nAnuncioID) {
+        $this->nAnuncioID = $nAnuncioID;
+    }
+
+    function setNao($cao) {
+        $this->cao = $cao;
+    }
+
+    function setNrotetor($protetor) {
+        $this->protetor = $protetor;
+    }
+
+    function setDataAnuncio($dataAnuncio) {
+        $this->dataAnuncio = $dataAnuncio;
+    }
+
+    function setBStatusAprovado($bStatusAprovado) {
+        $this->bStatusAprovado = $bStatusAprovado;
+    }
+
+    function setStrTitulo($strTitulo) {
+        $this->strTitulo = $strTitulo;
+    }
+
+    function setStrDescricao($strDescricao) {
+        $this->strDescricao = $strDescricao;
+    }
+
+    function setAdministrador($administrador) {
+        $this->administrador = $administrador;
+    }
+
 }
 
 ?>
