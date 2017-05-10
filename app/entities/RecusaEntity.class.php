@@ -16,15 +16,15 @@ class RecusaEntity {
 	}
 
 	//getters
-	function getNRecusaID() {
+	function getRecusaID() {
     	return $this->nRecusaID;
 	}
 
-	function getStrTitulo() {
+	function getTitulo() {
     	return $this->strTitulo;
 	}
 
-	function getStrDescricao() {
+	function getDescricao() {
     	return $this->strDescricao;
 	}
 
@@ -33,15 +33,15 @@ class RecusaEntity {
 	}
 
 	//setters
-    function setNRecusaID($nRecusaID) {
+    function setRecusaID($nRecusaID) {
         $this->nRecusaID = $nRecusaID;
     }
 
-    function setStrTitulo($strTitulo) {
+    function setTitulo($strTitulo) {
         $this->strTitulo = $strTitulo;
     }
 
-    function setStrDescricao($strDescricao) {
+    function setDescricao($strDescricao) {
         $this->strDescricao = $strDescricao;
     }
 

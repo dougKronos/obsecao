@@ -29,80 +29,80 @@ class UsuarioEntity {
 	}
 
 	//getters
-	function getnUsuarioID() {
+	function getUsuarioID() {
     	return $this->nUsuarioID;
 	}
 
-	function getstrNome() {
+	function getNome() {
     	return $this->strNome;
 	}
 
-	function getstrEmail() {
+	function getEmail() {
     	return $this->strEmail;
 	}
 
-	function getstrTelefone() {
+	function getTelefone() {
     	return $this->strTelefone;
 	}
 
-	function getstrTelefoneAlternativo() {
+	function getTelefoneAlternativo() {
     	return $this->strTelefoneAlternativo;
 	}
 
-	function getstrEmailAlternativo() {
+	function getEmailAlternativo() {
     	return $this->strEmailAlternativo;
 	}
 
-	function getfoto() {
+	function getFoto() {
     	return $this->foto;
 	}
 
-	//function getidFacebook() {
+	//function getIdFacebook() {
     //	return $this->idFacebook;
 	//}
 
-	function getpermissao() {
+	function getPermissao() {
     	return $this->permissao;
 	}
 
 	//setters
-    function setnUsuarioID($nUsuarioID) {
+    function setUsuarioID($nUsuarioID) {
         $this->nUsuarioID = $nUsuarioID;
     }
 
-    function setstrNome($strNome) {
+    function setNome($strNome) {
         $this->strNome = $strNome;
     }
 
-    function setstrEmail($strEmail) {
+    function setEmail($strEmail) {
         $this->strEmail = $strEmail;
     }
 
-    function setstrSenha($strSenha) {
+    function setSenha($strSenha) {
         $this->strSenha = $strSenha;
     }
 
-    function setstrTelefone($strTelefone) {
+    function setTelefone($strTelefone) {
         $this->strTelefone = $strTelefone;
     }
 
-    function setstrTelefoneAlternativo($strTelefoneAlternativo) {
+    function setTelefoneAlternativo($strTelefoneAlternativo) {
         $this->strTelefoneAlternativo = $strTelefoneAlternativo;
     }
 
-    function setstrEmailAlternativo($strEmailAlternativo) {
+    function setEmailAlternativo($strEmailAlternativo) {
         $this->strEmailAlternativo = $strEmailAlternativo;
     }
 
-    function setfoto($foto) {
+    function setFoto($foto) {
         $this->foto = $foto;
     }
 
-    function setidFacebook($idFacebook) {
-        $this->idFacebook = $idFacebook;
-    }
+    // function setIdFacebook($idFacebook) {
+        // $this->idFacebook = $idFacebook;
+    // }
 
-    function setpermissao($permissao) {
+    function setPermissao($permissao) {
         $this->permissao = $permissao;
     }
 	

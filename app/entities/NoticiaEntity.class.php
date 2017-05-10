@@ -18,15 +18,15 @@ class noticiaEntity {
 	}
 
 	//getters
-	function getNNoticiaID() {
+	function getNoticiaID() {
     	return $this->nNoticiaID;
 	}
 
-	function getStrTopico() {
+	function getTopico() {
     	return $this->strTopico;
 	}
 
-	function getStrDescricao() {
+	function getDescricao() {
     	return $this->strDescricao;
 	}
 
@@ -39,15 +39,15 @@ class noticiaEntity {
 	}
 
 	//setters
-    function setNNoticiaID($nNoticiaID) {
+    function setNoticiaID($nNoticiaID) {
         $this->nNoticiaID = $nNoticiaID;
     }
 
-    function setStrTopico($strTopico) {
+    function setTopico($strTopico) {
         $this->strTopico = $strTopico;
     }
 
-    function setStrDescricao($strDescricao) {
+    function setDescricao($strDescricao) {
         $this->strDescricao = $strDescricao;
     }
 

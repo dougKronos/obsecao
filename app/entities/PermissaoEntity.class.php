@@ -11,20 +11,20 @@ class PermissaoEntity {
 	}
 
 	//getters
-	function getNPermissaoID() {
+	function getPermissaoID() {
     	return $this->nPermissaoID;
 	}
 
-	function getStrDescricaoPermissao() {
+	function getDescricaoPermissao() {
     	return $this->strDescricaoPermissao;
 	}
 
 	//setters
-    function setNPermissaoID($nPermissaoID) {
+    function setPermissaoID($nPermissaoID) {
         $this->nPermissaoID = $nPermissaoID;
     }
 
-    function setStrDescricaoPermissao($strDescricaoPermissao) {
+    function setDescricaoPermissao($strDescricaoPermissao) {
         $this->strDescricaoPermissao = $strDescricaoPermissao;
     }
 }

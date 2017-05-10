@@ -27,7 +27,7 @@ class DepoimentoEntity {
 	}
 
 	//getters
-	function getNDepoimentoID() {
+	function getDepoimentoID() {
     	return $this->nDepoimentoID;
 	}
 
@@ -39,7 +39,7 @@ class DepoimentoEntity {
     	return $this->adotante;
 	}
 
-	function getStrDepoimento() {
+	function getDepoimento() {
     	return $this->strDepoimento;
 	}
 
@@ -55,12 +55,12 @@ class DepoimentoEntity {
     	return $this->dataHora;
 	}
 
-	function getCStatusSituacao() {
+	function getStatusSituacao() {
     	return $this->cStatusSituacao;
 	}
 
 	//setters
-	function setNDepoimentoID($nDepoimentoID) {
+	function setDepoimentoID($nDepoimentoID) {
         $this->nDepoimentoID = $nDepoimentoID;
     }
 
@@ -72,7 +72,7 @@ class DepoimentoEntity {
         $this->adotante = $adotante;
     }
 
-    function setStrDepoimento($strDepoimento) {
+    function setDepoimento($strDepoimento) {
         $this->strDepoimento = $strDepoimento;
     }
 
@@ -88,7 +88,7 @@ class DepoimentoEntity {
         $this->dataHora = $dataHora;
     }
 
-    function setCStatusSituacao($cStatusSituacao) {
+    function setStatusSituacao($cStatusSituacao) {
         $this->cStatusSituacao = $cStatusSituacao;
     }
 

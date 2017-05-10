@@ -15,7 +15,7 @@ class AdministradorEntity {
 	}
 
 	//getters
-	function getNAdministradorID() {
+	function getAdministradorID() {
     	return $this->nAdministradorID;
 	}
 
@@ -23,12 +23,12 @@ class AdministradorEntity {
     	return $this->usuario;
 	}
 
-	function getNNivelGerencial() {
+	function getNivelGerencial() {
     	return $this->nNivelGerencial;
 	}
 
 	//setters
-	function setNAdministradorID($nAdministradorID) {
+	function setAdministradorID($nAdministradorID) {
         $this->nAdministradorID = $nAdministradorID;
     }
 
@@ -36,7 +36,7 @@ class AdministradorEntity {
         $this->usuario = $usuario;
     }
 
-    function setNNivelGerencial($nNivelGerencial) {
+    function setNivelGerencial($nNivelGerencial) {
         $this->nNivelGerencial = $nNivelGerencial;
     }
 }

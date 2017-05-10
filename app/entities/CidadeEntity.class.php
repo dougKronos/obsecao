@@ -11,20 +11,20 @@ class CidadeEntity {
 	}
 
 	//getters
-	function getNCidadeID() {
+	function getCidadeID() {
     	return $this->nCidadeID;
 	}
 
-	function getStrNome() {
+	function getNome() {
     	return $this->strNome;
 	}
 
 	//setters
-	function setNCidadeID($nCidadeID) {
+	function setCidadeID($nCidadeID) {
         $this->nCidadeID = $nCidadeID;
     }
 
-    function setStrNome($strNome) {
+    function setNome($strNome) {
         $this->strNome = $strNome;
     }
 }

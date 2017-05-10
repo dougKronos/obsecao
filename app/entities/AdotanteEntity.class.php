@@ -25,7 +25,7 @@ class AdotanteEntity {
 	}
 
 	//getters
-	function getNAdotanteID() {
+	function getAdotanteID() {
     	return $this->nAdotanteID;
 	}
 
@@ -33,23 +33,23 @@ class AdotanteEntity {
     	return $this->usuario;
 	}
 
-	function getStrDetalhesLocal() {
+	function getDetalhesLocal() {
     	return $this->strDetalhesLocal;
 	}
 
-	function getStrTipoResidencia() {
+	function getTipoResidencia() {
     	return $this->strTipoResidencia;
 	}
 
-	function getBPossuiCriancas() {
+	function getPossuiCriancas() {
     	return $this->bPossuiCriancas;
 	}
 
-	function getBPossuiBichos() {
+	function getPossuiBichos() {
     	return $this->bPossuiBichos;
 	}
 
-	function getBAdotouAntes() {
+	function getAdotouAntes() {
     	return $this->bAdotouAntes;
 	}
 
@@ -58,7 +58,7 @@ class AdotanteEntity {
 	}
 
 	//setters
-	function setNAdotanteID($nAdotanteID) {
+	function setAdotanteID($nAdotanteID) {
         $this->nAdotanteID = $nAdotanteID;
     }
 
@@ -66,23 +66,23 @@ class AdotanteEntity {
         $this->usuario = $usuario;
     }
 
-    function setStrDetalhesLocal($strDetalhesLocal) {
+    function setDetalhesLocal($strDetalhesLocal) {
         $this->strDetalhesLocal = $strDetalhesLocal;
     }
 
-    function setStrTipoResidencia($strTipoResidencia) {
+    function setTipoResidencia($strTipoResidencia) {
         $this->strTipoResidencia = $strTipoResidencia;
     }
 
-    function setBPossuiCriancas($bPossuiCriancas) {
+    function setPossuiCriancas($bPossuiCriancas) {
         $this->bPossuiCriancas = $bPossuiCriancas;
     }
 
-    function setBPossuiBichos($bPossuiBichos) {
+    function setPossuiBichos($bPossuiBichos) {
         $this->bPossuiBichos = $bPossuiBichos;
     }
 
-    function setBAdotouAntes($bAdotouAntes) {
+    function setAdotouAntes($bAdotouAntes) {
         $this->bAdotouAntes = $bAdotouAntes;
     }
 

@@ -31,31 +31,31 @@ class CaoEntity {
 	}
 
 	//getters
-	function getNCaoID() {
+	function getCaoID() {
     	return $this->nCaoID;
 	}
 
-	function getStrNome() {
+	function getNome() {
     	return $this->strNome;
 	}
 
-	function getCSexo() {
+	function getSexo() {
     	return $this->cSexo;
 	}
 
-	function getStrRaca() {
+	function getRaca() {
     	return $this->strRaca;
 	}
 
-	function getNIdade() {
+	function getIdade() {
     	return $this->nIdade;
 	}
 
-	function getStrCaracteristicas() {
+	function getCaracteristicas() {
     	return $this->strCaracteristicas;
 	}
 
-	function getStrCaracteristicasComport() {
+	function getCaracteristicasComport() {
     	return $this->strCaracteristicasComport;
 	}
 
@@ -67,44 +67,44 @@ class CaoEntity {
     //	return $this->video;
 	//}
 
-	function getStrHistoricoResgate() {
+	function getHistoricoResgate() {
     	return $this->strHistoricoResgate;
 	}
 
-	function getStrRestricoes() {
+	function getRestricoes() {
     	return $this->strRestricoes;
 	}
 
-	function getBStatusAdotado() {
+	function getStatusAdotado() {
     	return $this->bStatusAdotado;
 	}
 
 	//setters
-	function setNCaoID($nCaoID) {
+	function setCaoID($nCaoID) {
         $this->nCaoID = $nCaoID;
     }
 
-    function setStrNome($strNome) {
+    function setNome($strNome) {
         $this->strNome = $strNome;
     }
 
-    function setCSexo($cSexo) {
+    function setSexo($cSexo) {
         $this->cSexo = $cSexo;
     }
 
-    function setStrRaca($strRaca) {
+    function setRaca($strRaca) {
         $this->strRaca = $strRaca;
     }
 
-    function setNIdade($nIdade) {
+    function setIdade($nIdade) {
         $this->nIdade = $nIdade;
     }
 
-    function setStrCaracteristicas($strCaracteristicas) {
+    function setCaracteristicas($strCaracteristicas) {
         $this->strCaracteristicas = $strCaracteristicas;
     }
 
-    function setStrCaracteristicasComport($strCaracteristicasComport) {
+    function setCaracteristicasComport($strCaracteristicasComport) {
         $this->strCaracteristicasComport = $strCaracteristicasComport;
     }
 
@@ -116,15 +116,15 @@ class CaoEntity {
     //   $this->video = $video;
     //}
 
-    function setStrHistoricoResgate($strHistoricoResgate) {
+    function setHistoricoResgate($strHistoricoResgate) {
         $this->strHistoricoResgate = $strHistoricoResgate;
     }
 
-    function setStrRestricoes($strRestricoes) {
+    function setRestricoes($strRestricoes) {
         $this->strRestricoes = $strRestricoes;
     }
 
-    function setBStatusAdotado($bStatusAdotado) {
+    function setStatusAdotado($bStatusAdotado) {
         $this->bStatusAdotado = $bStatusAdotado;
     }
 }

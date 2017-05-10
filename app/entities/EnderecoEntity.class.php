@@ -20,15 +20,15 @@ class EnderecoEntity {
 	}
 
 	//getters
-	function getNEnderecoID() {
+	function getEnderecoID() {
     	return $this->nEnderecoID;
 	}
 
-	function getStrEndereco() {
+	function getEndereco() {
     	return $this->strEndereco;
 	}
 
-	function getStrBairro() {
+	function getBairro() {
     	return $this->strBairro;
 	}
 
@@ -41,15 +41,15 @@ class EnderecoEntity {
 	}
 
 	//setters
-    function setNEnderecoID($nEnderecoID) {
+    function setEnderecoID($nEnderecoID) {
         $this->nEnderecoID = $nEnderecoID;
     }
     
-    function setStrEndereco($strEndereco) {
+    function setEndereco($strEndereco) {
         $this->strEndereco = $strEndereco;
     }
 
-	function setStrBairro($strBairro) {
+	function setBairro($strBairro) {
         $this->strBairro = $strBairro;
     }
 

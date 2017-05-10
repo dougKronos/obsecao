@@ -13,28 +13,28 @@ class EstadoEntity {
 	}
 
 	//getters
-	function getNEstadoID() {
+	function getEstadoID() {
     	return $this->nEnderecoID;
 	}
 
-	function getStrNome() {
+	function getNome() {
     	return $this->strNome;
 	}
 
-	function getStrSigla() {
+	function getSigla() {
     	return $this->strSigla;
 	}
 
 	//setters
-    function setNEstadoID($nEstadoID) {
+    function setEstadoID($nEstadoID) {
         $this->nEstadoID = $nEstadoID;
     }
     
-    function setStrNome($strNome) {
+    function setNome($strNome) {
         $this->strNome = $strNome;
     }
 
-    function setStrSigla($strSigla) {
+    function setSigla($strSigla) {
         $this->strSigla = $strSigla;
     }
 }

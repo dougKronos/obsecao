@@ -26,7 +26,7 @@ class AnuncioEntity {
 	}
 
 	//getters
-	function getNAnuncioID() {
+	function getAnuncioID() {
     	return $this->nAnuncioID;
 	}
 
@@ -42,15 +42,15 @@ class AnuncioEntity {
     	return $this->dataAnuncio;
 	}
 
-	function getBStatusAprovado() {
+	function getStatusAprovado() {
     	return $this->bStatusAprovado;
 	}
 
-	function getStrTitulo() {
+	function getTitulo() {
     	return $this->strTitulo;
 	}
 
-	function getStrDescricao() {
+	function getDescricao() {
     	return $this->strDescricao;
 	}
 
@@ -59,15 +59,15 @@ class AnuncioEntity {
 	}
 
 	//setters
-	function setNAnuncioID($nAnuncioID) {
+	function setAnuncioID($nAnuncioID) {
         $this->nAnuncioID = $nAnuncioID;
     }
 
-    function setNao($cao) {
+    function setCao($cao) {
         $this->cao = $cao;
     }
 
-    function setNrotetor($protetor) {
+    function setProtetor($protetor) {
         $this->protetor = $protetor;
     }
 
@@ -75,15 +75,15 @@ class AnuncioEntity {
         $this->dataAnuncio = $dataAnuncio;
     }
 
-    function setBStatusAprovado($bStatusAprovado) {
+    function setStatusAprovado($bStatusAprovado) {
         $this->bStatusAprovado = $bStatusAprovado;
     }
 
-    function setStrTitulo($strTitulo) {
+    function setTitulo($strTitulo) {
         $this->strTitulo = $strTitulo;
     }
 
-    function setStrDescricao($strDescricao) {
+    function setDescricao($strDescricao) {
         $this->strDescricao = $strDescricao;
     }
 

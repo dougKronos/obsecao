@@ -17,7 +17,7 @@ class ProtetorEntity {
 	}
 
 	//getters
-	function getNProtetorID() {
+	function getProtetorID() {
     	return $this->nProtetorID;
 	}
 
@@ -29,12 +29,12 @@ class ProtetorEntity {
     	return $this->endereco;
 	}
 
-	function getBRealizaEntrega() {
+	function getRealizaEntrega() {
     	return $this->bRealizaEntrega;
 	}
 
 	//setters
-    function setNProtetorID($nProtetorID) {
+    function setProtetorID($nProtetorID) {
         $this->nProtetorID = $nProtetorID;
     }
 
@@ -46,7 +46,7 @@ class ProtetorEntity {
         $this->endereco = $endereco;
     }
 
-    function setBRealizaEntrega($bRealizaEntrega) {
+    function setRealizaEntrega($bRealizaEntrega) {
         $this->bRealizaEntrega = $bRealizaEntrega;
     }
 
