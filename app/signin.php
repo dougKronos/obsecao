@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="Obsecao">
 <head>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,13 +17,18 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../statics/js/angular.min.js"></script>
+	<script type="text/javascript" src="../statics/js/start.js"></script>
+	<script type="text/javascript" src="frontend/controllers/LoginCtrl.js"></script>
 </head>
 <body>
-	<section class="container">
+	<section class="container" ng-controller="LoginCtrl">
 			<section class="login-form">
-				<form method="post" action="" role="login">
-					<img src="images/logo.png" class="img-responsive" alt="" />
-					<input type="email" name="email" placeholder="Email" required class="form-control input-lg" />
+				<form method="post" action="" role="login" name="signForm">
+					<img src="../statics/images/logo.png" class="img-responsive" alt="" />
+					<input type="text" name="email" placeholder="Email" required class="form-control input-lg" ng-model="email" ng-blur="changeEmail($event)" email-drt />
+					<!-- <div class="exclamation-icon error-date" ng-show="myForm.validityDate.$invalid && myForm.$dirty">!</div> -->
+
 					<input type="password" name="password" placeholder="Senha" required class="form-control input-lg" />
 					<button type="submit" name="go" class="btn btn-lg btn-primary btn-block">Entrar</button>
 					<div>
