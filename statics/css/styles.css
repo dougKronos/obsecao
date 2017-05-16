@@ -50,3 +50,7 @@ form[role=login] {
 	.form-links a {
 		color: #fff;
 	}
+
+.myInitialHidden{
+	display:none !important;
+}

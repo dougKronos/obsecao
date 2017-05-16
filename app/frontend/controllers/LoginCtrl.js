@@ -1,13 +1,20 @@
 angular.module('Obsecao').controller('LoginCtrl', ['$scope', function($scope){
 
 	$scope.email = '';
+	$scope.password = '';
 
-	$scope.changeEmail = function(){
+	$allowWarning = false;
+
+	$scope.up = function(signForm){
 		var 
-			email = $scope.email,
-			regExp = /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})$/g;
+			bEmailInvalid = signForm.email.$invalid,
+			bPassInvalid = signForm.pass.$error.required;
 
-	    if(!~email.search(regExp))
-			alert("E-mail invalido");
+		$scope.allowWarningEmail = (!!bEmailInvalid);
+		$scope.allowWarningPass = (!!bPassInvalid);
+		
+		if(!!$scope.allowWarningEmail && !!$scope.allowWarningPass){
+			// Segue o submit
+		}
 	};
 }]);

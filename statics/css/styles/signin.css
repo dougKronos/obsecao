@@ -1,0 +1,20 @@
+.errorMsg{
+	background-color:#FEC1C1;
+	margin-top:-16px;
+	font-size:12px;
+	color:red;
+	border:1px solid red;
+	line-height:20px;
+	text-align:left !important;
+	padding-left:5px;
+	width:175px;
+	border-radius:5px;
+	padding-top:2px;
+}
+.errorIcon{
+	width:25px;
+	display:inline-block !important;
+	margin:0;
+	text-align:left !important;
+	margin:0 !important;
+}
