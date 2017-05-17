@@ -38,7 +38,7 @@
 
 					<button ng-click="up(signForm)" name="go" class="btn btn-lg btn-primary btn-block">Entrar</button>
 					<div>
-						<a href="#">Criar Conta</a> ou <a href="#">Esqueci minha senha</a>
+						<a href="../app/signup.php">Criar Conta</a> ou <a href="#">Esqueci minha senha</a>
 					</div>
 				</form>
 				<div class="form-links">
