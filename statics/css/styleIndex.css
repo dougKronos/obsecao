@@ -1,0 +1,53 @@
+
+		}
+		.logo{
+			position:fixed;
+			top:20px;
+			left:25px;
+		}
+		.greeting{
+			position:fixed;
+			top:18px;
+			left:286px;
+		}
+		.menuInitial{
+			background-color: white;
+			list-style-type:none;
+			margin:0;
+			padding:0;
+		}
+		a:hover{
+			text-decoration:none;
+		}
+		a{
+			text-decoration:none;
+			width:85px;
+			position:fixed;
+			top:20px;
+			right:0;
+			font-size:20px;
+			color:blue;
+		}
+		.caoPata2{
+			position:fixed;
+			margin:auto;
+			left:0;
+			right:0;
+			opacity:0;
+		}
+		.caoPata2Go{
+			opacity:1;
+			right:-500px;
+			animation: moveDog 2s;
+		}
+		/* Chrome, Safari, Opera */
+		@-webkit-keyframes moveDog {
+		    from {right:0;opacity:0;}
+		    to {right: -500px;opacity:1;}
+		}
+
+		/* Standard syntax */
+		@keyframes moveDog {
+			from {right:0;opacity:0;}
+			to {right: -500px;opacity:1;}
+		}
