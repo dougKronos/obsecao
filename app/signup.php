@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
 	<link type="text/css" rel="stylesheet" href="../statics/bootstrap/css/bootstrap.min.css">
 	<link type="text/css" rel="stylesheet" href="../statics/css/iframe-style.css" />
-	<link type="text/css" rel="stylesheet" href="../statics/css/styleSignUp.css" />
+	<link type="text/css" rel="stylesheet" href="../statics/css/styles/styleSignUp.css" />
 	<link type="text/css" rel="stylesheet" href="../statics/css/iframe-responsive.css" />
-	<link type="text/css" rel="stylesheet" href="../statics/css/styles.css" />
-	<link type="text/css" rel="stylesheet" href="../statics/css/styles/signin.css" />
+	<link type="text/css" rel="stylesheet" href="../statics/css/styles/styles.css" />
+	<link type="text/css" rel="stylesheet" href="../statics/css/styles/styleSignUp.css" />
     <title>ObseCão</title>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,7 +25,7 @@
 	<script type="text/javascript" src="../app/frontend/controllers/LoginCtrl.js"></script>
 	<script type="text/javascript" src="../app/frontend/directives/validatorEmailDrt.js"></script>
 </head>
-<body style="overflow:scroll">
+<body style="overflow:scroll; background: url(../statics/images/bg.jpg) no-repeat center center fixed;">
 	<section class="container" ng-controller="LoginCtrl">
 		<form role="login" name="signForm" class="signUpForm" novalidate autoScroll="true">
 			<h1 align="center"><i class="glyphicon glyphicon-globe"></i>Inscreva-se!</h1>

@@ -8,7 +8,7 @@
 	<link type="text/css" rel="stylesheet" href="../statics/bootstrap/css/bootstrap.min.css">
 	<link type="text/css" rel="stylesheet" href="../statics/css/iframe-style.css" />
 	<link type="text/css" rel="stylesheet" href="../statics/css/iframe-responsive.css" />
-	<link type="text/css" rel="stylesheet" href="../statics/css/styles.css" />
+	<link type="text/css" rel="stylesheet" href="../statics/css/styles/styles.css" />
 	<link type="text/css" rel="stylesheet" href="../statics/css/styles/signin.css" />
     <title>ObseCão</title>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -24,7 +24,7 @@
 	<script type="text/javascript" src="../app/frontend/controllers/LoginCtrl.js"></script>
 	<script type="text/javascript" src="../app/frontend/directives/validatorEmailDrt.js"></script>
 </head>
-<body>
+<body style="overflow:scroll; background: url(../statics/images/bg.jpg) no-repeat center center fixed;">
 	<section class="container" ng-controller="LoginCtrl">
 			<section class="login-form">
 				<form role="login" name="signForm" novalidate>

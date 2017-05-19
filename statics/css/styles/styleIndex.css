@@ -10,24 +10,16 @@
 			top:18px;
 			left:286px;
 		}
+		.banner{
+			background: url(../statics/images/bg.jpg) no-repeat center center fixed;
+		}
 		.menuInitial{
 			background-color: white;
 			list-style-type:none;
 			margin:0;
 			padding:0;
 		}
-		a:hover{
-			text-decoration:none;
-		}
-		a{
-			text-decoration:none;
-			width:85px;
-			position:fixed;
-			top:20px;
-			right:0;
-			font-size:20px;
-			color:blue;
-		}
+
 		.caoPata2{
 			position:fixed;
 			margin:auto;
@@ -50,4 +42,28 @@
 		@keyframes moveDog {
 			from {right:0;opacity:0;}
 			to {right: -500px;opacity:1;}
+		}
+
+		body {
+/*			background: url(../images/bg.jpg) no-repeat center center fixed;*/
+	    	font-family: 'Open Sans', 
+	    	sans-serif !important;
+	  	}
+	 	.page-header, h2 { 
+	    	font-family: 'Open Sans',
+	    	sans-serif !important;
+		}
+		.navbar-brand, .text-logo { 
+		}
+		p, .caption h4, label, table, .panel  {
+			font-size: 14px !important;  
+		  }
+		 h2 {
+		  	font-size: 30px !important; 
+		}
+		.navbar-brand, .text-logo {
+		  	font-size: 18px !important;
+		}
+		.navbar-left a {
+		  	font-size: 14px !important;
 		}

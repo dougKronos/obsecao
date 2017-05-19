@@ -6,7 +6,7 @@
 	position: relative; 
 }
 
-body{
+.body{
 	overflow:scroll; 
 	background: url(../statics/images/bg.jpg) no-repeat center center fixed;
 }

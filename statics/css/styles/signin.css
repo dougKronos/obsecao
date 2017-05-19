@@ -18,3 +18,8 @@
 	text-align:left !important;
 	margin:0 !important;
 }
+
+body{
+	overflow:scroll; 
+	background: url(../statics/images/bg.jpg) no-repeat center center fixed;
+}
