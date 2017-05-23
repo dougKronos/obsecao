@@ -1,4 +1,4 @@
-// VERSION: 0.4.1 - © Jumpseller
+  // VERSION: 0.4.1 - © Jumpseller
 
 if ("undefined" == typeof Jumpseller) var Jumpseller = {
   countryListenerCallbacks: [],
@@ -59,48 +59,6 @@ if ("undefined" == typeof Jumpseller) var Jumpseller = {
     }
   },
 
-  addCountryListeners: function () {
-    if ($('form#checkout').length > 0) {
-      Jumpseller.countryListener('#order_shipping_address_country', {callback: function(){}});
-      Jumpseller.countryListener('#order_billing_address_country', {callback: function(){}});
-    }
-    if ($("form#estimate_shipping_form").length > 0) {
-      Jumpseller.countryListener('#estimate_shipping_country', {callback: function(){}});
-    }
-    if ($('form#address').length > 0) {
-      Jumpseller.countryListener('#customer_shipping_address_country', {callback: function(){}});
-      Jumpseller.countryListener('#customer_billing_address_country', {callback: function(){}});
-    }
-  },
-
-  countryListener: function(countriesSelector, options) {
-    Jumpseller.requiredAttributesChecker(countriesSelector, options);
-
-    $(countriesSelector).on('change', function(event) {
-      // check if a jQuery selector is defined for the Regions select
-      if(!Jumpseller.isDefined(options.regionsSelector)){
-        // otherwise, use a default selector and inform the user
-        options.regionsSelector = countriesSelector.replace('_country', '_region');
-        console.log("Info: 'options.regionsSelector' is not defined. Default: " + options.regionsSelector);
-      }
-
-      var selectedRegion = $(options.regionsSelector).find(':selected').val();
-      var countryCode = event.target.value;
-      var lat;
-      var lng;
-      if (localStorage['geolocation'] != undefined) {
-        geolocation = JSON.parse(localStorage['geolocation']);
-        if (location.country == countryCode) {
-          selectedRegion = geolocation.region;
-          lat = geolocation.lat;
-          lng = geolocation.lng;
-        }
-      }
-
-      // run countryListenerCallbacks functions
-      for (i = 0; i < Jumpseller.countryListenerCallbacks.length; i++) {
-        Jumpseller.countryListenerCallbacks[i]();
-      }
 
       // update the Regions select with the current value from the Countries select
       Jumpseller.getRegions(options.regionsSelector, countryCode, selectedRegion, lat, lng);
@@ -631,8 +589,6 @@ head.js("//code.jquery.com/jquery-1.11.1.min.js", function() {
         }
       }
     }
-
-    Jumpseller.addCountryListeners();
   });
 });
 
